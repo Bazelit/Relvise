@@ -1,0 +1,20 @@
+<svg width="97.599609" height="98.399902" viewBox="0 0 97.5996 98.3999" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip964_17528">
+			<rect id="icn play .icn-sm" width="24.000000" height="28.800022" transform="translate(36.799805 34.800049)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip964_17527">
+			<rect id="button.button.btn.primary-color.btn-circle.btn-lg" rx="48.799999" width="97.599998" height="98.400024" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="button.button.btn.primary-color.btn-circle.btn-lg" rx="48.799999" width="97.599998" height="98.400024" fill="#0D5C63" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip964_17527)">
+		<rect id="icn play .icn-sm" width="24.000000" height="28.800022" transform="translate(36.799805 34.800049)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip964_17528)">
+			<path id="vector" d="M36.7998 34.8L60.7998 49.2L36.7998 63.6001L36.7998 34.8Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
