@@ -433,9 +433,13 @@ body {
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     border: none;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: all 1s ease;
 }
 
+.play__button:hover {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(248deg)
+    brightness(105%) contrast(1000%);
+}
 
 .video__text {
 }
@@ -476,3 +480,4 @@ body {
     letter-spacing: 0.2px;
     text-align: left;
 }
+
