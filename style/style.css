@@ -330,17 +330,13 @@ body {
 
 /* ---advices--- */
 .advices {
-    margin-bottom: 180px;
+    margin-bottom: 80px;
 }
 .advics__content {
     text-align: center;
 }
 .advices__text {
     margin-bottom: 45px;
-}
-.advices__title {
-}
-.advices__subtitle {
 }
 .advices__cards {
     display: flex;
@@ -379,22 +375,17 @@ body {
 
 /* ---video--- */
 .info {
-}
-.container {
+    background: rgb(255, 255, 255);
+    padding-top: 100px;
 }
 .info__content {
+    margin-bottom: 135px;
 }
 .info__text {
     margin-bottom: 100px;
 }
 .info__title {
     text-align: center;
-}
-.title {
-}
-.info__subtitle {
-}
-.subtitle {
 }
 .info__main {
     display: flex;
@@ -410,8 +401,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0) 14.583%,
@@ -435,17 +424,9 @@ body {
     border: none;
     transition: all 1s ease;
 }
-
 .play__button:hover {
-    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(248deg)
-    brightness(105%) contrast(1000%);
-}
-
-.video__text {
-}
-.video__title {
-}
-.video__subtitle {
+    filter: invert(100%) sepia(100%) saturate(0%) brightness(102%)
+        contrast(103%);
 }
 .video__description {
     padding-top: 50px;
@@ -460,8 +441,6 @@ body {
 }
 .video-description__image {
     margin-right: 20px;
-}
-.video-description__text {
 }
 .video-description__title {
     color: rgb(37, 43, 66);
@@ -481,3 +460,151 @@ body {
     text-align: left;
 }
 
+/* ---partners--- */
+.partners__content {
+    padding: 50px 0 87px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ---newsletter--- */
+.newsletter {
+    background: rgb(37, 43, 66);
+    /* margin-bottom: 80px; */
+}
+.newsletter__content {
+    position: relative;
+    bottom: 50px;
+    border-radius: 2px;
+    background: rgb(23, 33, 60);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.newsletter__title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    max-width: 265px;
+}
+.newsletter__input {
+    position: relative;
+    left: 7px;
+    z-index: 0;
+    box-sizing: border-box;
+    padding: 15px 150px 15px 20px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    background: rgb(249, 249, 249);
+}
+.newsletter__input:focus {
+    border: 3px solid rgb(244, 139, 97);
+    z-index: 2;
+}
+.newsletter__button {
+    position: relative;
+    z-index: 1;
+    padding: 9px 22px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(255, 123, 71);
+    border: 1px solid rgb(230, 230, 230);
+    transition: all 0.5s ease;
+}
+.newsletter__button:hover {
+    background: rgb(224, 128, 90);
+}
+
+/* ---contacts--- */
+.contacts {
+    padding-top: 80px;
+    background: rgb(243, 243, 243);
+    margin-bottom: 178px;
+}
+.contacts__text {
+    margin-bottom: 110px;
+}
+.contacts__title {
+    text-align: center;
+}
+.contacts__cards {
+    display: flex;
+    justify-content: center;
+}
+.contacts__card {
+    text-align: center;
+    padding: 50px 40px;
+    background: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+.contacts__card:hover {
+    padding: 80px 40px;
+    background: rgb(37, 43, 66);
+    .contacts__email,
+    .contacts__card-text {
+        color: white;
+    }
+    .contacts__button {
+        box-sizing: border-box;
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .contacts__image {
+        filter: invert(100%) sepia(100%) saturate(0%) brightness(105%)
+            contrast(1000%);
+    }
+}
+.contacts__image {
+    margin-bottom: 15px;
+}
+.contacts__email {
+    color: rgb(37, 43, 66);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.contacts__email:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contacts__emails {
+    margin-bottom: 15px;
+}
+.contacts__card-text {
+    color: rgb(37, 43, 66);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 15px;
+}
+.contacts__button {
+    color: rgb(255, 123, 71);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 123, 71);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+}
+.contacts__button:hover {
+    background: rgb(255, 123, 71);
+    color: rgb(255, 255, 255);
+}
