@@ -26,28 +26,39 @@
     </head>
     <body>
         <div class="wrapper">
-            <section class="intro">
+            <section id="intro" class="intro">
                 <div class="container">
                     <header class="header">
                         <div class="header__content">
                             <a href="" class="header__logo">Relvise</a>
+
+                            <div class="burger">
+                                <div class="menu__icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
                             <nav class="header__menu menu">
                                 <ul class="menu__list">
                                     <li class="menu__item">
-                                        <a href="" class="menu__link">Home</a>
+                                        <a href="#intro" class="menu__link"
+                                            >Home</a
+                                        >
                                     </li>
                                     <li class="menu__item">
-                                        <a href="" class="menu__link"
+                                        <a href="#products" class="menu__link"
                                             >Products</a
                                         >
                                     </li>
                                     <li class="menu__item">
-                                        <a href="" class="menu__link"
+                                        <a href="#info" class="menu__link"
                                             >Pricing</a
                                         >
                                     </li>
                                     <li class="menu__item">
-                                        <a href="" class="menu__link"
+                                        <a href="#contacts" class="menu__link"
                                             >Contact</a
                                         >
                                     </li>
@@ -64,17 +75,17 @@
                             small scale.
                         </div>
                         <div class="intro__buttons">
-                            <a href="" class="button button_light">
+                            <a href="" class="intro__button button__light">
                                 Get Quote Now
                             </a>
-                            <a href="" class="button button_dark">
+                            <a href="" class="intro__button button__dark">
                                 Learn More
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="services">
+            <section id="products" class="services">
                 <div class="container">
                     <div class="services__content">
                         <div class="services__item">
@@ -141,48 +152,60 @@
                             </div>
                         </div>
                         <div class="statistics__cards">
-                            <div class="statistics__card">
-                                <img
-                                    src="img/statistics/1.svg"
-                                    alt=""
-                                    class="statistics__img"
-                                />
-                                <div class="statistics__card-title">972 +</div>
-                                <div class="statistics__card-subtitle">
-                                    Consumer Products
+                            <div class="statistics__row">
+                                <div class="statistics__card">
+                                    <img
+                                        src="img/statistics/1.svg"
+                                        alt=""
+                                        class="statistics__img"
+                                    />
+                                    <div class="statistics__card-title">
+                                        972 +
+                                    </div>
+                                    <div class="statistics__card-subtitle">
+                                        Consumer Products
+                                    </div>
+                                </div>
+                                <div class="statistics__card">
+                                    <img
+                                        src="img/statistics/2.svg"
+                                        alt=""
+                                        class="statistics__img"
+                                    />
+                                    <div class="statistics__card-title">
+                                        181 +
+                                    </div>
+                                    <div class="statistics__card-subtitle">
+                                        Financial Services
+                                    </div>
                                 </div>
                             </div>
-                            <div class="statistics__card">
-                                <img
-                                    src="img/statistics/2.svg"
-                                    alt=""
-                                    class="statistics__img"
-                                />
-                                <div class="statistics__card-title">181 +</div>
-                                <div class="statistics__card-subtitle">
-                                    Financial Services
+                            <div class="statistics__row">
+                                <div class="statistics__card">
+                                    <img
+                                        src="img/statistics/3.svg"
+                                        alt=""
+                                        class="statistics__img"
+                                    />
+                                    <div class="statistics__card-title">
+                                        98%
+                                    </div>
+                                    <div class="statistics__card-subtitle">
+                                        Environmental
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="statistics__card">
-                                <img
-                                    src="img/statistics/3.svg"
-                                    alt=""
-                                    class="statistics__img"
-                                />
-                                <div class="statistics__card-title">98%</div>
-                                <div class="statistics__card-subtitle">
-                                    Environmental
-                                </div>
-                            </div>
-                            <div class="statistics__card">
-                                <img
-                                    src="img/statistics/4.svg"
-                                    alt=""
-                                    class="statistics__img"
-                                />
-                                <div class="statistics__card-title">746 +</div>
-                                <div class="statistics__card-subtitle">
-                                    Business & Finance
+                                <div class="statistics__card">
+                                    <img
+                                        src="img/statistics/4.svg"
+                                        alt=""
+                                        class="statistics__img"
+                                    />
+                                    <div class="statistics__card-title">
+                                        746 +
+                                    </div>
+                                    <div class="statistics__card-subtitle">
+                                        Business & Finance
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -203,78 +226,84 @@
                             </div>
                         </div>
                         <div class="advices__cards">
-                            <div class="advices__card">
-                                <div class="advices-card__text">
-                                    <div class="advices__card-title">
-                                        A single source of truth
+                            <div class="advices__row">
+                                <div class="advices__card">
+                                    <div class="advices-card__text">
+                                        <div class="advices__card-title">
+                                            A single source of truth
+                                        </div>
+                                        <div class="advices__card-subtitle">
+                                            Newton thought that light was made
+                                            up of particles, but then it was
+                                            discovered
+                                        </div>
                                     </div>
-                                    <div class="advices__card-subtitle">
-                                        Newton thought that light was made up of
-                                        particles, but then it was discovered
-                                    </div>
+                                    <img
+                                        src="img/advices/1.png"
+                                        alt=""
+                                        class="advices__img"
+                                    />
                                 </div>
-                                <img
-                                    src="img/advices/1.png"
-                                    alt=""
-                                    class="advices__img"
-                                />
-                            </div>
-                            <div class="advices__card">
-                                <div class="advices-card__text">
-                                    <div class="advices__card-title">
-                                        Fastest way to organize
+                                <div class="advices__card">
+                                    <div class="advices-card__text">
+                                        <div class="advices__card-title">
+                                            Fastest way to organize
+                                        </div>
+                                        <div class="advices__card-subtitle">
+                                            “Quantum mechanics” is the
+                                            description of the behaviour of
+                                            matter
+                                        </div>
                                     </div>
-                                    <div class="advices__card-subtitle">
-                                        “Quantum mechanics” is the description
-                                        of the behaviour of matter
-                                    </div>
-                                </div>
 
-                                <img
-                                    src="img/advices/2.png"
-                                    alt=""
-                                    class="advices__img"
-                                />
-                            </div>
-                            <div class="advices__card">
-                                <div class="advices-card__text">
-                                    <div class="advices__card-title">
-                                        Fastest way to take action
-                                    </div>
-                                    <div class="advices__card-subtitle">
-                                        They describe a universe consisting of
-                                        bodies moving
-                                    </div>
+                                    <img
+                                        src="img/advices/2.png"
+                                        alt=""
+                                        class="advices__img"
+                                    />
                                 </div>
-
-                                <img
-                                    src="img/advices/3.png"
-                                    alt=""
-                                    class="advices__img"
-                                />
                             </div>
-                            <div class="advices__card">
-                                <div class="advices-card__text">
-                                    <div class="advices__card-title">
-                                        Work better together
+                            <div class="advices__row">
+                                <div class="advices__card">
+                                    <div class="advices-card__text">
+                                        <div class="advices__card-title">
+                                            Fastest way to take action
+                                        </div>
+                                        <div class="advices__card-subtitle">
+                                            They describe a universe consisting
+                                            of bodies moving
+                                        </div>
                                     </div>
-                                    <div class="advices__card-subtitle">
-                                        They finally obtained a consistent
-                                        description of the behaviour
-                                    </div>
-                                </div>
 
-                                <img
-                                    src="img/advices/4.png"
-                                    alt=""
-                                    class="advices__img"
-                                />
+                                    <img
+                                        src="img/advices/3.png"
+                                        alt=""
+                                        class="advices__img"
+                                    />
+                                </div>
+                                <div class="advices__card">
+                                    <div class="advices-card__text">
+                                        <div class="advices__card-title">
+                                            Work better together
+                                        </div>
+                                        <div class="advices__card-subtitle">
+                                            They finally obtained a consistent
+                                            description of the behaviour
+                                        </div>
+                                    </div>
+
+                                    <img
+                                        src="img/advices/4.png"
+                                        alt=""
+                                        class="advices__img"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="info">
+            <section id="info" class="info">
                 <div class="container">
                     <div class="info__content">
                         <div class="info__text">
@@ -356,36 +385,40 @@
             <section class="partners">
                 <div class="container">
                     <div class="partners__content">
-                        <img
-                            src="img/partners/1.svg"
-                            alt=""
-                            class="partners__image"
-                        />
-                        <img
-                            src="img/partners/2.svg"
-                            alt=""
-                            class="partners__image"
-                        />
-                        <img
-                            src="img/partners/3.svg"
-                            alt=""
-                            class="partners__image"
-                        />
-                        <img
-                            src="img/partners/4.svg"
-                            alt=""
-                            class="partners__image"
-                        />
-                        <img
-                            src="img/partners/5.svg"
-                            alt=""
-                            class="partners__image"
-                        />
-                        <img
-                            src="img/partners/6.svg"
-                            alt=""
-                            class="partners__image"
-                        />
+                        <div class="partners__row">
+                            <img
+                                src="img/partners/1.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                            <img
+                                src="img/partners/2.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                            <img
+                                src="img/partners/3.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                        </div>
+                        <div class="partners__row">
+                            <img
+                                src="img/partners/4.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                            <img
+                                src="img/partners/5.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                            <img
+                                src="img/partners/6.svg"
+                                alt=""
+                                class="partners__image"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -490,7 +523,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact-us">
+            <section id="contacts" class="contact-us">
                 <div class="container">
                     <div class="contact-us__content">
                         <div class="contact-us__text">
